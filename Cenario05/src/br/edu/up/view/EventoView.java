@@ -7,7 +7,7 @@ import br.edu.up.model.Reserva;
 
 import java.util.Scanner;
 
-public class View {
+public class EventoView {
     private static Scanner scanner = new Scanner(System.in);
     private static EventoController eventoController = new EventoController();
     private static ReservaController reservaController = new ReservaController();

@@ -1,12 +1,10 @@
 package br.edu.up;
 
-import java.util.Scanner;
+import br.edu.up.controller.AeroportoController;
 
 public class Programa {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
-
-
-        leitor.close();
+        AeroportoController controller = new AeroportoController();
+        controller.iniciar();
     }
 }

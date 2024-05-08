@@ -1,6 +1,6 @@
 package br.edu.up;
 
-import br.edu.up.model.Veiculo;
+// import br.edu.up.model.Veiculo;
 import br.edu.up.model.Estacionamento;
 import br.edu.up.view.MenuView;
 import br.edu.up.controller.EstacionamentoController;
