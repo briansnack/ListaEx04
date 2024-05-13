@@ -1,14 +1,11 @@
 package br.edu.up;
-import java.util.Scanner;
+
+import br.edu.up.controller.UniversidadeController;
+import br.edu.up.view.UniversidadeView;
 
 public class Programa {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
-
-
-
-
-
-        leitor.close();
+        UniversidadeController controller = new UniversidadeController(new UniversidadeView());
+        controller.iniciar();
     }
 }
