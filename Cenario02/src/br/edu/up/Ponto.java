@@ -31,9 +31,8 @@ public class Ponto {
     }
     
     public double calcularDistancia(Ponto outroPonto){
-        return  Math.sqrt(Math.pow(this.x - outroPonto.getX() , 2) +Math.pow(this.y - outroPonto.getY(), 2));
+        return  Math.sqrt(Math.pow(this.x - outroPonto.getX(), 2) + Math.pow(this.y - outroPonto.getY(), 2));
     }
-    
     
     public double calcularDistancia(double x, double y) {
         return Math.sqrt(Math.pow(this.x - x, 2) + Math.pow(this.y - y, 2));
