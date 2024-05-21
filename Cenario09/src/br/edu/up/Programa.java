@@ -5,8 +5,8 @@ import br.edu.up.view.*;
 
 public class Programa {
     public static void main(String[] args) {
-        SeguroView view = new SeguroView();
-        SeguroController controller = new SeguroController(view);
+        ClienteView view = new ClienteView();
+        ClienteController controller = new ClienteController(view);
         controller.iniciar();
     }
 }

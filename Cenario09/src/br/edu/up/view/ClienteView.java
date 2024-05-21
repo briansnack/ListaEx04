@@ -3,7 +3,7 @@ package br.edu.up.view;
 import java.util.Scanner;
 import br.edu.up.model.*;
 
-public class SeguroView {
+public class ClienteView {
     private Scanner leitor = new Scanner(System.in);
 
     public int exibirMenu() {

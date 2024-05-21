@@ -5,12 +5,12 @@ import java.util.List;
 import br.edu.up.model.*;
 import br.edu.up.view.*;
 
-public class SeguroController {
+public class ClienteController{
     private List<ClientePessoa> clientesPessoas = new ArrayList<>();
     private List<ClienteEmpresa> clientesEmpresas = new ArrayList<>();
-    private SeguroView view;
+    private ClienteView view;
 
-    public SeguroController(SeguroView view) {
+    public ClienteController(ClienteView view) {
         this.view = view;
     }
 
