@@ -1,15 +1,12 @@
 package br.edu.up;
 
-import java.util.Scanner;
+import br.edu.up.controller.*;
+import br.edu.up.view.*;
 
 public class Programa {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
-        
-
-
-
-
-        leitor.close();
+        SeguroView view = new SeguroView();
+        SeguroController controller = new SeguroController(view);
+        controller.iniciar();
     }
 }
